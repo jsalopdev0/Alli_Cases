@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Aquí va correctamente el addMapping
-                        .allowedOrigins("http://localhost:3000")
+                        .allowedOrigins("https://allicases-web.onrender.com")
                         .allowedMethods("*");
             }
         };
